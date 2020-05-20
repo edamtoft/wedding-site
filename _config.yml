@@ -1,0 +1,9 @@
+title: Moses-Damtoft Wedding
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - node_modules/
+  - styles/bootstrap/
+sass:
+  sass_dir: styles
+  style: compressed
