@@ -1,19 +1,23 @@
 ---
 ---
 
+$blue: #4D6376;
+$brown: #4A3728;
+
 $theme-colors: (
-  "primary": #4D6376,
-  "secondary": #4A3728
+  "primary": $blue,
+  "secondary": $brown
 );
 
 @import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
 @import "bootstrap/scss/bootstrap.scss";
 
-
-#banner {
-  background: url('/assets/banner-1920.jpeg');
+.hero-400 {
   height: 400px;
-  font-family: 'Milonga', cursive;
+}
+
+.hero-300 {
+  height: 300px;
 }
 
 h1, h2, h3, h4, h5, h6, .text-decorative {
