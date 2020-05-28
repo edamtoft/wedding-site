@@ -1,4 +1,21 @@
 ---
 ---
 
+$theme-colors: (
+  "primary": #5895CB,
+  "secondary": #CB8E58
+);
+
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
 @import "bootstrap/scss/bootstrap.scss";
+
+
+#banner {
+  background: url('/assets/banner-1920.jpeg');
+  height: 400px;
+  font-family: 'Milonga', cursive;
+}
+
+h1, h2, h3, h4, h5, h6, .text-decorative {
+  font-family: 'Milonga', cursive;
+}
